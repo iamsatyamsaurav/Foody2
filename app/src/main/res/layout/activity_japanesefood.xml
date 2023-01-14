@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/lightorange"
+    android:layout_height="match_parent"
+    tools:context=".Japanesefood">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="138dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/japres" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="210dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="@font/pen"
+        android:gravity="center"
+        android:text="One Japanese plum a day is an escape from that one day struggle"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="177dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="163dp"
+        android:fontFamily="@font/barlowcondensedmedium"
+        android:gravity="left"
+        android:text="Most Recommended"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/cream"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginBottom="4dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="292dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="62dp"
+        android:textColor="@color/black"
+        android:background="@color/lightorange"
+
+        android:textStyle="bold"
+        android:fontFamily="@font/barlowcondensedmedium"
+        android:layout_marginBottom="6dp"
+        android:text="Place Order" />
+</RelativeLayout>

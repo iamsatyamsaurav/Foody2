@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/lightorange"
+    android:layout_height="match_parent"
+    tools:context=".Chinesefood">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="138dp"
+        android:layout_height="139dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="17dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/chineserest" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="210dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="19dp"
+        android:fontFamily="@font/pen"
+        android:gravity="center"
+        android:text="Chinese food tries to engage the mind, not just the palate. To provoke the intellect"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@color/cream"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="177dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="165dp"
+        android:fontFamily="@font/barlowcondensedmedium"
+        android:gravity="left"
+        android:text="Most Recommended"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="292dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="62dp"
+        android:textColor="@color/black"
+        android:background="@color/lightorange"
+
+        android:textStyle="bold"
+        android:fontFamily="@font/barlowcondensedmedium"
+        android:layout_marginBottom="6dp"
+        android:text="Place Order" />
+
+</RelativeLayout>

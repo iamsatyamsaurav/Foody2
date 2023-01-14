@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightorange"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@color/cream"
+        android:id="@+id/recyclerview1"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="216dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+
+        android:layout_width="289dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="4dp"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/black"
+        android:text="Hello Foodies!"
+        android:textSize="38sp"
+        android:fontFamily="@font/fredokaone"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="111dp"
+        android:layout_height="92dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/foodt" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="333dp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="106dp"
+        android:fontFamily="@font/sacramento"
+
+        android:gravity="center"
+        android:text="Good food is what all we need to be happy"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="203dp"
+        android:fontFamily="@font/barlowcondensedmedium"
+        android:gravity="left"
+        android:text="Restaurants near you"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <ImageButton
+        android:id="@+id/imagebutton1"
+        android:layout_width="72dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="9dp"
+        android:background="@color/lightorange"
+
+        app:srcCompat="@drawable/loc" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="9dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Your Location"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
